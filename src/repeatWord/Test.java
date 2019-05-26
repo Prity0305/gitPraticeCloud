@@ -1,6 +1,6 @@
 package repeatWord;
 
-public class Test {
+public class Test extends Object{
 
 	private static String input = "durgadurgadurgadurga";
 
