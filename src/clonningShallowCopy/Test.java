@@ -12,10 +12,10 @@ public class Test {
 		
 		Student s1 = (Student) s.clone();
 		System.out.println("Cloned value: "+ s1);
-		System.out.println(s1 == s);
-		System.out.println(s1.getClass() == s.getClass());
-		System.out.println(s1.equals(s));
-		
+		//System.out.println(s1 == s);
+		//System.out.println(s1.getClass() == s.getClass());
+		//System.out.println(s1.equals(s));
+		System.out.println();
 		s1.getBranch().setName("CS");
 		s1.getBranch().setTotalStudent(90);
 		s1.setName("Prity");
