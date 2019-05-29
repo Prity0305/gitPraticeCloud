@@ -2,7 +2,7 @@ package swappTwoNumber;
 
 import java.util.Arrays;
 
-public class SingleArraySort {
+public class PritySortingLogic {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] a = { 64, 25, 12, 22, 11 };
