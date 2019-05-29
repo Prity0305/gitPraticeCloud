@@ -17,15 +17,15 @@ public class Test2 {
 		System.out.println();
 		System.out.println("Original s value: "+ s);
 		System.out.println("Original newS value: "+ newS );
-		
+
 		newS.setName("Prity");
 		newS.setAge(28);
 		newS.setBranch("CS");
 		System.out.println();
-		
+
 		System.out.println("New s value: "+ s);
 		System.out.println("New newS value: "+ newS );
-		
+
 
 	}
 
