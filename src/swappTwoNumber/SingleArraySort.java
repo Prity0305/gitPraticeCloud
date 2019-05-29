@@ -5,16 +5,17 @@ import java.util.Arrays;
 public class SingleArraySort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a= {2, 3,1,4};
-		int i = 1;
-		while (i < (a.length - 2)) {
-			if (a[i] > a[i + 1]) {
-				int temp = a[i];
-				a[i] = a[i + 1];
-				a[i + 1] = temp;
-				i = -1;
+		int[] a = { 64, 25, 12, 22, 11 };
+
+		for (int i = 0; i < a.length-1; i++) {
+			for (int j = i + 1; j < a.length; j++) {
+				if (a[i] > a[j]) {
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
 			}
-			System.out.println(Arrays.toString(a));
 		}
+		System.out.println(Arrays.toString(a));
 	}
 }
