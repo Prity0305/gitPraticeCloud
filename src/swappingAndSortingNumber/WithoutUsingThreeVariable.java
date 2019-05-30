@@ -1,4 +1,4 @@
-package swappTwoNumber;
+package swappingAndSortingNumber;
 
 public class WithoutUsingThreeVariable {
 	public static void main(String[] args) {

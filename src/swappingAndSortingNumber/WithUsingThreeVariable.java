@@ -1,4 +1,4 @@
-package swappTwoNumber;
+package swappingAndSortingNumber;
 
 public class WithUsingThreeVariable {
 

@@ -1,4 +1,4 @@
-package swappTwoNumber;
+package swappingAndSortingNumber;
 
 import java.util.Arrays;
 
