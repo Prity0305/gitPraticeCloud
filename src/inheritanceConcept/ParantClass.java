@@ -1,6 +1,6 @@
 package inheritanceConcept;
 
-public class ParantClass  {
+public class ParantClass extends Object  {
 
 	public ParantClass() {
 		
