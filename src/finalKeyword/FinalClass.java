@@ -1,6 +1,6 @@
 package finalKeyword;
 
-// if a class is final, that's it cannnot be extended, which also mean it cann not be inherited
+// if a class is final, that's it cannnot be extended, which also mean it can not be inherited
 public class FinalClass {
 	// Final variable much initialized;
 	final int b = 10;
